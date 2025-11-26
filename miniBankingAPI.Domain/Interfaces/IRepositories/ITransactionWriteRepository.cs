@@ -7,6 +7,6 @@ namespace miniBankingAPI.Domain.Interfaces.IRepositories
 {
     public interface ITransactionWriteRepository : IWriteRepository<Transaction>
     {
-        // Transaction için özel write metodu gerekirse buraya eklenebilir
+        
     }
 }

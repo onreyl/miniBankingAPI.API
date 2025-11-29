@@ -1,10 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using miniBankingAPI.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using miniBankingAPI.Infrastructure.Persistence.Configurations;
 
-namespace miniBankingAPI.Infrastructure.Data
+namespace miniBankingAPI.Infrastructure.Persistence.Data
 {
     public class BankingDbContext : DbContext
     {
@@ -19,9 +17,11 @@ namespace miniBankingAPI.Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            // Apply all configurations
+            modelBuilder.ApplyConfiguration(new CustomerConfiguration());
+            modelBuilder.ApplyConfiguration(new AccountConfiguration());
+            modelBuilder.ApplyConfiguration(new TransactionConfiguration());
         }
-
-
-        
     }
 }

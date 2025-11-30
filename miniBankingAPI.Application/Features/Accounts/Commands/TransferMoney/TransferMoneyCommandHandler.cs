@@ -20,19 +20,13 @@ namespace miniBankingAPI.Application.Features.Accounts.Commands.TransferMoney
             var toAccount = await _unitOfWork.AccountsRead.GetByIdAsync(request.ToAccountId);
 
             if (fromAccount == null || toAccount == null)
-                throw new Exception("Hesap bulunamadı");
+                throw new Exception("Account not found");
 
-            if (!fromAccount.IsActive || !toAccount.IsActive)
-                throw new Exception("Hesap aktif değil");
+            if (!fromAccount.CanTransferTo(toAccount))
+                throw new Exception("Cannot transfer between different currencies or inactive accounts");
 
-            if (fromAccount.Balance < request.Amount)
-                throw new Exception("Yetersiz bakiye");
-
-            if (fromAccount.CurrencyType != toAccount.CurrencyType)
-                throw new Exception("Farklı para birimleri arasında transfer yapılamaz");
-
-            fromAccount.Balance -= request.Amount;
-            toAccount.Balance += request.Amount;
+            fromAccount.Withdraw(request.Amount);
+            toAccount.Deposit(request.Amount);
 
             _unitOfWork.AccountsWrite.Update(fromAccount);
             _unitOfWork.AccountsWrite.Update(toAccount);
@@ -43,7 +37,7 @@ namespace miniBankingAPI.Application.Features.Accounts.Commands.TransferMoney
                 ToAccountId = request.ToAccountId,
                 Amount = request.Amount,
                 TransactionType = TransactionType.Transfer,
-                Description = request.Description ?? "Para transferi",
+                Description = request.Description ?? "Money transfer",
                 CreatedDate = DateTime.UtcNow
             };
 

@@ -17,7 +17,7 @@ namespace miniBankingAPI.Application.Features.Accounts.Queries.GetAccountBalance
             var account = await _unitOfWork.AccountsRead.GetByIdAsync(request.AccountId);
             
             if (account == null)
-                throw new Exception("Hesap bulunamadı");
+                throw new Exception("Account not found");
 
             return account.Balance;
         }

@@ -17,6 +17,37 @@ namespace miniBankingAPI.Domain.Entities
         // Navigation Properties
         public Customer Customer { get; set; }
         public ICollection<Transaction> Transactions { get; set; }
+
+        // Business Logic Methods
+        public void Withdraw(decimal amount)
+        {
+            if (!IsActive)
+                throw new Exception("Account is not active");
+
+            if (amount <= 0)
+                throw new Exception("Amount must be greater than zero");
+
+            if (Balance < amount)
+                throw new Exception("Insufficient balance");
+
+            Balance -= amount;
+        }
+
+        public void Deposit(decimal amount)
+        {
+            if (!IsActive)
+                throw new Exception("Account is not active");
+
+            if (amount <= 0)
+                throw new Exception("Amount must be greater than zero");
+
+            Balance += amount;
+        }
+
+        public bool CanTransferTo(Account toAccount)
+        {
+            return IsActive && toAccount.IsActive && CurrencyType == toAccount.CurrencyType;
+        }
     }
 }
 

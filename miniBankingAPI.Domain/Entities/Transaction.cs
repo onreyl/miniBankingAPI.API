@@ -11,9 +11,9 @@ namespace miniBankingAPI.Domain.Entities
         public TransactionType TransactionType { get; set; }  
         public decimal Amount { get; set; }
         public int? ToAccountId { get; set; } 
-        public string Description { get; set; }
+        public string Description { get; set; } = string.Empty;
 
         // Navigation Property
-        public Account Account { get; set; }
+        public Account Account { get; set; } = null!;
     }
 }

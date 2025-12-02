@@ -7,7 +7,7 @@ namespace miniBankingAPI.Domain.Interfaces.IRepositories
 {
     public interface ICustomerReadRepository : IReadRepository<Customer>
     {
-        Task<Customer> GetByIdentityNumberAsync(string identityNumber);
-        Task<Customer> GetWithAccountsAsync(int customerId);
+        Task<Customer?> GetByIdentityNumberAsync(string identityNumber);
+        Task<Customer?> GetWithAccountsAsync(int customerId);
     }
 }

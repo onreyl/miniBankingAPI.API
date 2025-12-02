@@ -1,21 +1,24 @@
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using miniBankingAPI.Application.DTOs;
-using miniBankingAPI.Domain.Interfaces;
+using miniBankingAPI.Infrastructure.Persistence.Data;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace miniBankingAPI.Application.Features.Accounts.Queries.GetAccountById
 {
     public class GetAccountByIdQueryHandler : IRequestHandler<GetAccountByIdQuery, AccountDto>
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly BankingDbContext _context;
 
-        public GetAccountByIdQueryHandler(IUnitOfWork unitOfWork)
+        public GetAccountByIdQueryHandler(BankingDbContext context)
         {
-            _unitOfWork = unitOfWork;
+            _context = context;
         }
 
         public async Task<AccountDto> Handle(GetAccountByIdQuery request, CancellationToken cancellationToken)
         {
-            var account = await _unitOfWork.AccountsRead.GetByIdAsync(request.AccountId);
+            var account = await _context.Accounts.FirstOrDefaultAsync(a => a.Id == request.AccountId, cancellationToken);
             
             if (account == null)
                 throw new Exception("Hesap bulunamadı");

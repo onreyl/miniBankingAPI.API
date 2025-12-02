@@ -10,10 +10,12 @@
     <PackageReference Include="FluentValidation" Version="12.1.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.0" />
     <PackageReference Include="MediatR" Version="13.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\miniBankingAPI.Domain\miniBankingAPI.Domain.csproj" />
+    <ProjectReference Include="..\miniBankingAPI.Infrastructure\miniBankingAPI.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

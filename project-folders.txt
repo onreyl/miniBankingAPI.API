@@ -1,0 +1,144 @@
+Folder PATH listing
+Volume serial number is 0E06-2AA6
+C:.
++---.github
+|   \---workflows
++---miniBankingAPI.API
+|   +---bin
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |       +---BuildHost-net472
+|   |   |       |   +---cs
+|   |   |       |   +---de
+|   |   |       |   +---es
+|   |   |       |   +---fr
+|   |   |       |   +---it
+|   |   |       |   +---ja
+|   |   |       |   +---ko
+|   |   |       |   +---pl
+|   |   |       |   +---pt-BR
+|   |   |       |   +---ru
+|   |   |       |   +---tr
+|   |   |       |   +---zh-Hans
+|   |   |       |   \---zh-Hant
+|   |   |       +---BuildHost-netcore
+|   |   |       |   +---cs
+|   |   |       |   +---de
+|   |   |       |   +---es
+|   |   |       |   +---fr
+|   |   |       |   +---it
+|   |   |       |   +---ja
+|   |   |       |   +---ko
+|   |   |       |   +---pl
+|   |   |       |   +---pt-BR
+|   |   |       |   +---ru
+|   |   |       |   +---tr
+|   |   |       |   +---zh-Hans
+|   |   |       |   \---zh-Hant
+|   |   |       +---cs
+|   |   |       +---de
+|   |   |       +---es
+|   |   |       +---fr
+|   |   |       +---it
+|   |   |       +---ja
+|   |   |       +---ko
+|   |   |       +---pl
+|   |   |       +---pt-BR
+|   |   |       +---ru
+|   |   |       +---runtimes
+|   |   |       |   +---unix
+|   |   |       |   |   \---lib
+|   |   |       |   |       \---net9.0
+|   |   |       |   +---win
+|   |   |       |   |   \---lib
+|   |   |       |   |       \---net9.0
+|   |   |       |   +---win-arm64
+|   |   |       |   |   \---native
+|   |   |       |   +---win-x64
+|   |   |       |   |   \---native
+|   |   |       |   \---win-x86
+|   |   |       |       \---native
+|   |   |       +---tr
+|   |   |       +---zh-Hans
+|   |   |       \---zh-Hant
+|   |   \---Release
+|   |       \---net10.0
+|   +---Controllers
+|   +---Middlewares
+|   +---obj
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |       +---ref
+|   |   |       +---refint
+|   |   |       \---staticwebassets
+|   |   \---Release
+|   |       \---net10.0
+|   |           +---ref
+|   |           \---refint
+|   +---Properties
+|   \---Settings
++---miniBankingAPI.Application
+|   +---bin
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   \---Release
+|   |       \---net10.0
+|   +---DTOs
+|   +---Features
+|   |   \---Accounts
+|   |       +---Commands
+|   |       |   +---CreateAccount
+|   |       |   \---TransferMoney
+|   |       \---Queries
+|   |           +---GetAccountBalance
+|   |           \---GetAccountById
+|   +---obj
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |       +---ref
+|   |   |       \---refint
+|   |   \---Release
+|   |       \---net10.0
+|   |           +---ref
+|   |           \---refint
+|   \---Services
++---miniBankingAPI.Domain
+|   +---bin
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   \---Release
+|   |       \---net10.0
+|   +---Entities
+|   +---Enums
+|   +---Interfaces
+|   |   \---IRepositories
+|   \---obj
+|       +---Debug
+|       |   \---net10.0
+|       |       +---ref
+|       |       \---refint
+|       \---Release
+|           \---net10.0
+|               +---ref
+|               \---refint
++---miniBankingAPI.Infrastructure
+|   +---bin
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   \---Release
+|   |       \---net10.0
+|   +---Migrations
+|   +---obj
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |       +---ref
+|   |   |       \---refint
+|   |   \---Release
+|   |       \---net10.0
+|   |           +---ref
+|   |           \---refint
+|   \---Persistence
+|       +---Configurations
+|       +---Data
+|       \---Repositories
+\---obj

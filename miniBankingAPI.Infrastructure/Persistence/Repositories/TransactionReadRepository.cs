@@ -7,7 +7,7 @@ namespace miniBankingAPI.Infrastructure.Persistence.Repositories
 {
     public class TransactionReadRepository : ReadRepository<Transaction>, ITransactionReadRepository
     {
-        private readonly DbSet<Transaction> _dbSet;
+        private new readonly DbSet<Transaction> _dbSet;
 
         public TransactionReadRepository(BankingDbContext context) : base(context)
         {

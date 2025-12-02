@@ -3,4 +3,5 @@
   <Project Path="miniBankingAPI.Application/miniBankingAPI.Application.csproj" />
   <Project Path="miniBankingAPI.Domain/miniBankingAPI.Domain.csproj" />
   <Project Path="miniBankingAPI.Infrastructure/miniBankingAPI.Infrastructure.csproj" />
+  <Project Path="miniBankingAPI.Tests/miniBankingAPI.Tests.csproj" />
 </Solution>

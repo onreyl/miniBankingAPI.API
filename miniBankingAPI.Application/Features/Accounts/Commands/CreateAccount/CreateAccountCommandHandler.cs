@@ -1,14 +1,14 @@
 ﻿using MediatR;
 using miniBankingAPI.Domain.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace miniBankingAPI.Application.Features.Accounts.Commands.CreateAccount
 {
     public class CreateAccountCommandHandler : IRequestHandler<CreateAccountCommand, int>
     {
-        private IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
         public CreateAccountCommandHandler(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -37,7 +37,5 @@ namespace miniBankingAPI.Application.Features.Accounts.Commands.CreateAccount
         {
             return $"TR{DateTime.Now.Ticks % 1000000000000:D12}";
         }
-
-        
     }
 }

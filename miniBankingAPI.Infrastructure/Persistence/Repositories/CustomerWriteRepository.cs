@@ -7,7 +7,7 @@ namespace miniBankingAPI.Infrastructure.Persistence.Repositories
 {
     public class CustomerWriteRepository : WriteRepository<Customer>, ICustomerWriteRepository
     {
-        private readonly DbSet<Customer> _dbSet;
+        private new readonly DbSet<Customer> _dbSet;
 
         public CustomerWriteRepository(BankingDbContext context) : base(context)
         {

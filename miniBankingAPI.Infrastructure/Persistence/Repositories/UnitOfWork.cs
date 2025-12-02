@@ -31,10 +31,5 @@ namespace miniBankingAPI.Infrastructure.Persistence.Repositories
         {
             return await _context.SaveChangesAsync();
         }
-
-        public void Dispose()
-        {
-            _context.Dispose();
-        }
     }
 }

@@ -1,0 +1,647 @@
+Folder PATH listing
+Volume serial number is 0E06-2AA6
+C:.
+|   .gitattributes
+|   .gitignore
+|   miniBankingAPI.API.slnx
+|   project-structure.txt
+|   README.md
+|   
++---.github
+|   \---workflows
++---miniBankingAPI.API
+|   |   appsettings.Development.json
+|   |   appsettings.json
+|   |   miniBankingAPI.API.csproj
+|   |   miniBankingAPI.API.csproj.user
+|   |   miniBankingAPI.API.http
+|   |   Program.cs
+|   |   
+|   +---bin
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |       |   appsettings.Development.json
+|   |   |       |   appsettings.json
+|   |   |       |   Azure.Core.dll
+|   |   |       |   Azure.Identity.dll
+|   |   |       |   FluentValidation.AspNetCore.dll
+|   |   |       |   FluentValidation.DependencyInjectionExtensions.dll
+|   |   |       |   FluentValidation.dll
+|   |   |       |   Humanizer.dll
+|   |   |       |   MediatR.Contracts.dll
+|   |   |       |   MediatR.dll
+|   |   |       |   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+|   |   |       |   Microsoft.AspNetCore.OpenApi.dll
+|   |   |       |   Microsoft.Bcl.AsyncInterfaces.dll
+|   |   |       |   Microsoft.Bcl.Cryptography.dll
+|   |   |       |   Microsoft.Build.dll
+|   |   |       |   Microsoft.Build.Framework.dll
+|   |   |       |   Microsoft.Build.Tasks.Core.dll
+|   |   |       |   Microsoft.Build.Utilities.Core.dll
+|   |   |       |   Microsoft.CodeAnalysis.CSharp.dll
+|   |   |       |   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+|   |   |       |   Microsoft.CodeAnalysis.dll
+|   |   |       |   Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+|   |   |       |   Microsoft.CodeAnalysis.Workspaces.dll
+|   |   |       |   Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+|   |   |       |   Microsoft.Data.SqlClient.dll
+|   |   |       |   Microsoft.EntityFrameworkCore.Abstractions.dll
+|   |   |       |   Microsoft.EntityFrameworkCore.Design.dll
+|   |   |       |   Microsoft.EntityFrameworkCore.dll
+|   |   |       |   Microsoft.EntityFrameworkCore.Relational.dll
+|   |   |       |   Microsoft.EntityFrameworkCore.SqlServer.dll
+|   |   |       |   Microsoft.Extensions.DependencyModel.dll
+|   |   |       |   Microsoft.Identity.Client.dll
+|   |   |       |   Microsoft.Identity.Client.Extensions.Msal.dll
+|   |   |       |   Microsoft.IdentityModel.Abstractions.dll
+|   |   |       |   Microsoft.IdentityModel.JsonWebTokens.dll
+|   |   |       |   Microsoft.IdentityModel.Logging.dll
+|   |   |       |   Microsoft.IdentityModel.Protocols.dll
+|   |   |       |   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+|   |   |       |   Microsoft.IdentityModel.Tokens.dll
+|   |   |       |   Microsoft.NET.StringTools.dll
+|   |   |       |   Microsoft.OpenApi.dll
+|   |   |       |   Microsoft.SqlServer.Server.dll
+|   |   |       |   miniBankingAPI.API.deps.json
+|   |   |       |   miniBankingAPI.API.dll
+|   |   |       |   miniBankingAPI.API.exe
+|   |   |       |   miniBankingAPI.API.pdb
+|   |   |       |   miniBankingAPI.API.runtimeconfig.json
+|   |   |       |   miniBankingAPI.API.staticwebassets.endpoints.json
+|   |   |       |   miniBankingAPI.Application.dll
+|   |   |       |   miniBankingAPI.Application.pdb
+|   |   |       |   miniBankingAPI.Domain.dll
+|   |   |       |   miniBankingAPI.Domain.pdb
+|   |   |       |   miniBankingAPI.Infrastructure.dll
+|   |   |       |   miniBankingAPI.Infrastructure.pdb
+|   |   |       |   Mono.TextTemplating.dll
+|   |   |       |   Newtonsoft.Json.dll
+|   |   |       |   Swashbuckle.AspNetCore.Swagger.dll
+|   |   |       |   Swashbuckle.AspNetCore.SwaggerGen.dll
+|   |   |       |   Swashbuckle.AspNetCore.SwaggerUI.dll
+|   |   |       |   System.ClientModel.dll
+|   |   |       |   System.CodeDom.dll
+|   |   |       |   System.Composition.AttributedModel.dll
+|   |   |       |   System.Composition.Convention.dll
+|   |   |       |   System.Composition.Hosting.dll
+|   |   |       |   System.Composition.Runtime.dll
+|   |   |       |   System.Composition.TypedParts.dll
+|   |   |       |   System.Configuration.ConfigurationManager.dll
+|   |   |       |   System.Formats.Nrbf.dll
+|   |   |       |   System.IdentityModel.Tokens.Jwt.dll
+|   |   |       |   System.Memory.Data.dll
+|   |   |       |   System.Reflection.MetadataLoadContext.dll
+|   |   |       |   System.Resources.Extensions.dll
+|   |   |       |   System.Security.Cryptography.ProtectedData.dll
+|   |   |       |   System.Security.Permissions.dll
+|   |   |       |   System.Windows.Extensions.dll
+|   |   |       |   
+|   |   |       +---BuildHost-net472
+|   |   |       |   |   Microsoft.Build.Locator.dll
+|   |   |       |   |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
+|   |   |       |   |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config
+|   |   |       |   |   Microsoft.IO.Redist.dll
+|   |   |       |   |   Newtonsoft.Json.dll
+|   |   |       |   |   System.Buffers.dll
+|   |   |       |   |   System.Collections.Immutable.dll
+|   |   |       |   |   System.CommandLine.dll
+|   |   |       |   |   System.Memory.dll
+|   |   |       |   |   System.Numerics.Vectors.dll
+|   |   |       |   |   System.Runtime.CompilerServices.Unsafe.dll
+|   |   |       |   |   System.Threading.Tasks.Extensions.dll
+|   |   |       |   |   
+|   |   |       |   +---cs
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---de
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---es
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---fr
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---it
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---ja
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---ko
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---pl
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---pt-BR
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---ru
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---tr
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---zh-Hans
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   \---zh-Hant
+|   |   |       |           System.CommandLine.resources.dll
+|   |   |       |           
+|   |   |       +---BuildHost-netcore
+|   |   |       |   |   Microsoft.Build.Locator.dll
+|   |   |       |   |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.deps.json
+|   |   |       |   |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+|   |   |       |   |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll.config
+|   |   |       |   |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json
+|   |   |       |   |   Newtonsoft.Json.dll
+|   |   |       |   |   System.Collections.Immutable.dll
+|   |   |       |   |   System.CommandLine.dll
+|   |   |       |   |   
+|   |   |       |   +---cs
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---de
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---es
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---fr
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---it
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---ja
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---ko
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---pl
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---pt-BR
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---ru
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---tr
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   +---zh-Hans
+|   |   |       |   |       System.CommandLine.resources.dll
+|   |   |       |   |       
+|   |   |       |   \---zh-Hant
+|   |   |       |           System.CommandLine.resources.dll
+|   |   |       |           
+|   |   |       +---cs
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---de
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---es
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---fr
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---it
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---ja
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---ko
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---pl
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---pt-BR
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---ru
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---runtimes
+|   |   |       |   +---unix
+|   |   |       |   |   \---lib
+|   |   |       |   |       \---net9.0
+|   |   |       |   |               Microsoft.Data.SqlClient.dll
+|   |   |       |   |               
+|   |   |       |   +---win
+|   |   |       |   |   \---lib
+|   |   |       |   |       \---net9.0
+|   |   |       |   |               Microsoft.Data.SqlClient.dll
+|   |   |       |   |               System.Windows.Extensions.dll
+|   |   |       |   |               
+|   |   |       |   +---win-arm64
+|   |   |       |   |   \---native
+|   |   |       |   |           Microsoft.Data.SqlClient.SNI.dll
+|   |   |       |   |           
+|   |   |       |   +---win-x64
+|   |   |       |   |   \---native
+|   |   |       |   |           Microsoft.Data.SqlClient.SNI.dll
+|   |   |       |   |           
+|   |   |       |   \---win-x86
+|   |   |       |       \---native
+|   |   |       |               Microsoft.Data.SqlClient.SNI.dll
+|   |   |       |               
+|   |   |       +---tr
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       +---zh-Hans
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |       |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |       |       Microsoft.Data.SqlClient.resources.dll
+|   |   |       |       
+|   |   |       \---zh-Hant
+|   |   |               Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |   |               Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |   |               Microsoft.CodeAnalysis.resources.dll
+|   |   |               Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+|   |   |               Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |   |               Microsoft.Data.SqlClient.resources.dll
+|   |   |               
+|   |   \---Release
+|   |       \---net10.0
+|   +---Controllers
+|   |       AccountController.cs
+|   |       AuthController.cs
+|   |       
+|   +---Middlewares
+|   |       GlobalExceptionHandler.cs
+|   |       
+|   +---obj
+|   |   |   miniBankingAPI.API.csproj.EntityFrameworkCore.targets
+|   |   |   miniBankingAPI.API.csproj.nuget.dgspec.json
+|   |   |   miniBankingAPI.API.csproj.nuget.g.props
+|   |   |   miniBankingAPI.API.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |       |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|   |   |       |   apphost.exe
+|   |   |       |   miniBank.30B04930.Up2Date
+|   |   |       |   miniBankingAPI.API.AssemblyInfo.cs
+|   |   |       |   miniBankingAPI.API.AssemblyInfoInputs.cache
+|   |   |       |   miniBankingAPI.API.assets.cache
+|   |   |       |   miniBankingAPI.API.csproj.AssemblyReference.cache
+|   |   |       |   miniBankingAPI.API.csproj.CoreCompileInputs.cache
+|   |   |       |   miniBankingAPI.API.csproj.FileListAbsolute.txt
+|   |   |       |   miniBankingAPI.API.dll
+|   |   |       |   miniBankingAPI.API.GeneratedMSBuildEditorConfig.editorconfig
+|   |   |       |   miniBankingAPI.API.genruntimeconfig.cache
+|   |   |       |   miniBankingAPI.API.GlobalUsings.g.cs
+|   |   |       |   miniBankingAPI.API.MvcApplicationPartsAssemblyInfo.cache
+|   |   |       |   miniBankingAPI.API.MvcApplicationPartsAssemblyInfo.cs
+|   |   |       |   miniBankingAPI.API.pdb
+|   |   |       |   miniBankingAPI.API.sourcelink.json
+|   |   |       |   rjsmcshtml.dswa.cache.json
+|   |   |       |   rjsmrazor.dswa.cache.json
+|   |   |       |   rpswa.dswa.cache.json
+|   |   |       |   staticwebassets.build.endpoints.json
+|   |   |       |   staticwebassets.build.json
+|   |   |       |   staticwebassets.build.json.cache
+|   |   |       |   staticwebassets.removed.txt
+|   |   |       |   swae.build.ex.cache
+|   |   |       |   
+|   |   |       +---ref
+|   |   |       |       miniBankingAPI.API.dll
+|   |   |       |       
+|   |   |       +---refint
+|   |   |       |       miniBankingAPI.API.dll
+|   |   |       |       
+|   |   |       \---staticwebassets
+|   |   \---Release
+|   |       \---net10.0
+|   |           |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|   |           |   miniBankingAPI.API.AssemblyInfo.cs
+|   |           |   miniBankingAPI.API.AssemblyInfoInputs.cache
+|   |           |   miniBankingAPI.API.assets.cache
+|   |           |   miniBankingAPI.API.csproj.AssemblyReference.cache
+|   |           |   miniBankingAPI.API.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   miniBankingAPI.API.GlobalUsings.g.cs
+|   |           |   
+|   |           +---ref
+|   |           \---refint
+|   +---Properties
+|   |       launchSettings.json
+|   |       
+|   \---Settings
+|           JwtSettings.cs
+|           
++---miniBankingAPI.Application
+|   |   miniBankingAPI.Application.csproj
+|   |   
+|   +---bin
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |           miniBankingAPI.Application.deps.json
+|   |   |           miniBankingAPI.Application.dll
+|   |   |           miniBankingAPI.Application.pdb
+|   |   |           miniBankingAPI.Domain.dll
+|   |   |           miniBankingAPI.Domain.pdb
+|   |   |           miniBankingAPI.Infrastructure.dll
+|   |   |           miniBankingAPI.Infrastructure.pdb
+|   |   |           
+|   |   \---Release
+|   |       \---net10.0
+|   +---DTOs
+|   |       AccountDto.cs
+|   |       
+|   +---Features
+|   |   \---Accounts
+|   |       +---Commands
+|   |       |   +---CreateAccount
+|   |       |   |       CreateAccountCommand.cs
+|   |       |   |       CreateAccountCommandHandler.cs
+|   |       |   |       CreateAccountCommandValidator.cs
+|   |       |   |       
+|   |       |   \---TransferMoney
+|   |       |           TransferMoneyCommand.cs
+|   |       |           TransferMoneyCommandHandler.cs
+|   |       |           TransferMoneyCommandValidator.cs
+|   |       |           
+|   |       \---Queries
+|   |           +---GetAccountBalance
+|   |           |       GetAccountBalanceQuery.cs
+|   |           |       GetAccountBalanceQueryHandler.cs
+|   |           |       
+|   |           \---GetAccountById
+|   |                   GetAccountByIdQuery.cs
+|   |                   GetAccountByIdQueryHandler.cs
+|   |                   
+|   +---obj
+|   |   |   miniBankingAPI.Application.csproj.nuget.dgspec.json
+|   |   |   miniBankingAPI.Application.csproj.nuget.g.props
+|   |   |   miniBankingAPI.Application.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |       |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|   |   |       |   miniBank.FFB69E82.Up2Date
+|   |   |       |   miniBankingAPI.Application.AssemblyInfo.cs
+|   |   |       |   miniBankingAPI.Application.AssemblyInfoInputs.cache
+|   |   |       |   miniBankingAPI.Application.assets.cache
+|   |   |       |   miniBankingAPI.Application.csproj.AssemblyReference.cache
+|   |   |       |   miniBankingAPI.Application.csproj.CoreCompileInputs.cache
+|   |   |       |   miniBankingAPI.Application.csproj.FileListAbsolute.txt
+|   |   |       |   miniBankingAPI.Application.dll
+|   |   |       |   miniBankingAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+|   |   |       |   miniBankingAPI.Application.GlobalUsings.g.cs
+|   |   |       |   miniBankingAPI.Application.pdb
+|   |   |       |   miniBankingAPI.Application.sourcelink.json
+|   |   |       |   
+|   |   |       +---ref
+|   |   |       |       miniBankingAPI.Application.dll
+|   |   |       |       
+|   |   |       \---refint
+|   |   |               miniBankingAPI.Application.dll
+|   |   |               
+|   |   \---Release
+|   |       \---net10.0
+|   |           |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|   |           |   miniBankingAPI.Application.AssemblyInfo.cs
+|   |           |   miniBankingAPI.Application.AssemblyInfoInputs.cache
+|   |           |   miniBankingAPI.Application.assets.cache
+|   |           |   miniBankingAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   miniBankingAPI.Application.GlobalUsings.g.cs
+|   |           |   
+|   |           +---ref
+|   |           \---refint
+|   \---Services
+|           AuthService.cs
+|           IAuthService.cs
+|           
++---miniBankingAPI.Domain
+|   |   miniBankingAPI.Domain.csproj
+|   |   
+|   +---bin
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |           miniBankingAPI.Domain.deps.json
+|   |   |           miniBankingAPI.Domain.dll
+|   |   |           miniBankingAPI.Domain.pdb
+|   |   |           
+|   |   \---Release
+|   |       \---net10.0
+|   +---Entities
+|   |       Account.cs
+|   |       BaseEntity.cs
+|   |       Customer.cs
+|   |       Transaction.cs
+|   |       User.cs
+|   |       
+|   +---Enums
+|   |       CurrencyType.cs
+|   |       TransactionType.cs
+|   |       
+|   +---Interfaces
+|   |   |   IReadRepository.cs
+|   |   |   IUnitOfWork.cs
+|   |   |   IWriteRepository.cs
+|   |   |   
+|   |   \---IRepositories
+|   |           IAccountReadRepository.cs
+|   |           IAccountWriteRepository.cs
+|   |           ICustomerReadRepository.cs
+|   |           ICustomerWriteRepository.cs
+|   |           ITransactionReadRepository.cs
+|   |           ITransactionWriteRepository.cs
+|   |           
+|   \---obj
+|       |   miniBankingAPI.Domain.csproj.nuget.dgspec.json
+|       |   miniBankingAPI.Domain.csproj.nuget.g.props
+|       |   miniBankingAPI.Domain.csproj.nuget.g.targets
+|       |   project.assets.json
+|       |   project.nuget.cache
+|       |   
+|       +---Debug
+|       |   \---net10.0
+|       |       |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|       |       |   miniBankingAPI.Domain.AssemblyInfo.cs
+|       |       |   miniBankingAPI.Domain.AssemblyInfoInputs.cache
+|       |       |   miniBankingAPI.Domain.assets.cache
+|       |       |   miniBankingAPI.Domain.csproj.CoreCompileInputs.cache
+|       |       |   miniBankingAPI.Domain.csproj.FileListAbsolute.txt
+|       |       |   miniBankingAPI.Domain.dll
+|       |       |   miniBankingAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+|       |       |   miniBankingAPI.Domain.GlobalUsings.g.cs
+|       |       |   miniBankingAPI.Domain.pdb
+|       |       |   miniBankingAPI.Domain.sourcelink.json
+|       |       |   
+|       |       +---ref
+|       |       |       miniBankingAPI.Domain.dll
+|       |       |       
+|       |       \---refint
+|       |               miniBankingAPI.Domain.dll
+|       |               
+|       \---Release
+|           \---net10.0
+|               |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|               |   miniBankingAPI.Domain.AssemblyInfo.cs
+|               |   miniBankingAPI.Domain.AssemblyInfoInputs.cache
+|               |   miniBankingAPI.Domain.assets.cache
+|               |   miniBankingAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+|               |   miniBankingAPI.Domain.GlobalUsings.g.cs
+|               |   
+|               +---ref
+|               \---refint
++---miniBankingAPI.Infrastructure
+|   |   miniBankingAPI.Infrastructure.csproj
+|   |   
+|   +---bin
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |           miniBankingAPI.Domain.dll
+|   |   |           miniBankingAPI.Domain.pdb
+|   |   |           miniBankingAPI.Infrastructure.deps.json
+|   |   |           miniBankingAPI.Infrastructure.dll
+|   |   |           miniBankingAPI.Infrastructure.pdb
+|   |   |           miniBankingAPI.Infrastructure.runtimeconfig.json
+|   |   |           
+|   |   \---Release
+|   |       \---net10.0
+|   +---Migrations
+|   |       20251130154908_InitialCreate.cs
+|   |       20251130154908_InitialCreate.Designer.cs
+|   |       20251130185607_RowVersion.cs
+|   |       20251130185607_RowVersion.Designer.cs
+|   |       20251201091522_AddUserEntity.cs
+|   |       20251201091522_AddUserEntity.Designer.cs
+|   |       BankingDbContextModelSnapshot.cs
+|   |       
+|   +---obj
+|   |   |   miniBankingAPI.Infrastructure.csproj.EntityFrameworkCore.targets
+|   |   |   miniBankingAPI.Infrastructure.csproj.nuget.dgspec.json
+|   |   |   miniBankingAPI.Infrastructure.csproj.nuget.g.props
+|   |   |   miniBankingAPI.Infrastructure.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   +---Debug
+|   |   |   \---net10.0
+|   |   |       |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|   |   |       |   miniBank.B2C577E5.Up2Date
+|   |   |       |   miniBankingAPI.Infrastructure.AssemblyInfo.cs
+|   |   |       |   miniBankingAPI.Infrastructure.AssemblyInfoInputs.cache
+|   |   |       |   miniBankingAPI.Infrastructure.assets.cache
+|   |   |       |   miniBankingAPI.Infrastructure.csproj.AssemblyReference.cache
+|   |   |       |   miniBankingAPI.Infrastructure.csproj.CoreCompileInputs.cache
+|   |   |       |   miniBankingAPI.Infrastructure.csproj.FileListAbsolute.txt
+|   |   |       |   miniBankingAPI.Infrastructure.dll
+|   |   |       |   miniBankingAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+|   |   |       |   miniBankingAPI.Infrastructure.genruntimeconfig.cache
+|   |   |       |   miniBankingAPI.Infrastructure.GlobalUsings.g.cs
+|   |   |       |   miniBankingAPI.Infrastructure.pdb
+|   |   |       |   miniBankingAPI.Infrastructure.sourcelink.json
+|   |   |       |   
+|   |   |       +---ref
+|   |   |       |       miniBankingAPI.Infrastructure.dll
+|   |   |       |       
+|   |   |       \---refint
+|   |   |               miniBankingAPI.Infrastructure.dll
+|   |   |               
+|   |   \---Release
+|   |       \---net10.0
+|   |           |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|   |           |   miniBankingAPI.Infrastructure.AssemblyInfo.cs
+|   |           |   miniBankingAPI.Infrastructure.AssemblyInfoInputs.cache
+|   |           |   miniBankingAPI.Infrastructure.assets.cache
+|   |           |   miniBankingAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   miniBankingAPI.Infrastructure.GlobalUsings.g.cs
+|   |           |   
+|   |           +---ref
+|   |           \---refint
+|   \---Persistence
+|       +---Configurations
+|       |       AccountConfiguration.cs
+|       |       CustomerConfiguration.cs
+|       |       TransactionConfiguration.cs
+|       |       UserConfiguration.cs
+|       |       
+|       +---Data
+|       |       BankingDbContext.cs
+|       |       
+|       \---Repositories
+|               AccountReadRepository.cs
+|               AccountWriteRepository.cs
+|               CustomerReadRepository.cs
+|               CustomerWriteRepository.cs
+|               ReadRepository.cs
+|               TransactionReadRepository.cs
+|               TransactionWriteRepository.cs
+|               UnitOfWork.cs
+|               WriteRepository.cs
+|               
+\---obj
+        miniBankingAPI.API.csproj.EntityFrameworkCore.targets
+        

@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using miniBankingAPI.Application.Features.Accounts.Commands.CreateAccount;
 using miniBankingAPI.Application.Features.Accounts.Commands.TransferMoney;
@@ -8,6 +9,7 @@ namespace miniBankingAPI.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class AccountController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -30,6 +32,7 @@ namespace miniBankingAPI.API.Controllers
             var result = await _mediator.Send(command);
             return Ok(result);
         }
+        
         [HttpPost("transfer")]
         public async Task<IActionResult> TransferMoney([FromBody] TransferMoneyCommand command)
         {

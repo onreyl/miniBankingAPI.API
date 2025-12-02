@@ -3,7 +3,7 @@ using System;
 
 namespace miniBankingAPI.Domain.Interfaces
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork
     {
         // Account repositories
         IAccountReadRepository AccountsRead { get; }

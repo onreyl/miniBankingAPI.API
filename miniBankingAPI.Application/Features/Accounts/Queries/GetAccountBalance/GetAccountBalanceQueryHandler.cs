@@ -1,5 +1,8 @@
 using MediatR;
 using miniBankingAPI.Domain.Interfaces;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace miniBankingAPI.Application.Features.Accounts.Queries.GetAccountBalance
 {
@@ -17,7 +20,7 @@ namespace miniBankingAPI.Application.Features.Accounts.Queries.GetAccountBalance
             var account = await _unitOfWork.AccountsRead.GetByIdAsync(request.AccountId);
             
             if (account == null)
-                throw new Exception("Account not found");
+                throw new KeyNotFoundException($"Account with ID {request.AccountId} not found");
 
             return account.Balance;
         }

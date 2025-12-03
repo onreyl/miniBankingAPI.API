@@ -8,19 +8,19 @@ namespace miniBankingAPI.Application.Features.Accounts.Commands.TransferMoney
         {
             RuleFor(x => x.FromAccountId)
                 .GreaterThan(0)
-                .WithMessage("Gönderen hesap ID geçerli olmalı");
+                .WithMessage("From account ID must be valid");
 
             RuleFor(x => x.ToAccountId)
                 .GreaterThan(0)
-                .WithMessage("Alıcı hesap ID geçerli olmalı");
+                .WithMessage("To account ID must be valid");
 
             RuleFor(x => x.Amount)
                 .GreaterThan(0)
-                .WithMessage("Transfer tutarı 0'dan büyük olmalı");
+                .WithMessage("Transfer amount must be greater than zero");
 
             RuleFor(x => x.FromAccountId)
                 .NotEqual(x => x.ToAccountId)
-                .WithMessage("Aynı hesaba transfer yapılamaz");
+                .WithMessage("Cannot transfer to the same account");
         }
     }
 }

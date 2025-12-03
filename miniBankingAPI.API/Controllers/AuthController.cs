@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using miniBankingAPI.Application.DTOs;
 using miniBankingAPI.Domain.Interfaces;
 
 namespace miniBankingAPI.API.Controllers
@@ -17,36 +18,15 @@ namespace miniBankingAPI.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
-            try
-            {
-                var token = await _authService.Login(request.Username, request.Password);
-                return Ok(new { Token = token });
-            }
-            catch (UnauthorizedAccessException ex)
-            {
-                return Unauthorized(ex.Message);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            var token = await _authService.Login(request.Username, request.Password);
+            return Ok(new LoginResponse(token));
         }
 
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
-            try
-            {
-                var userId = await _authService.Register(request.Username, request.Password, request.Email, request.CustomerId);
-                return Ok(new { UserId = userId });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            var userId = await _authService.Register(request.Username, request.Password, request.Email, request.CustomerId);
+            return Ok(new RegisterResponse(userId));
         }
     }
-
-    public record LoginRequest(string Username, string Password);
-    public record RegisterRequest(string Username, string Password, string Email, int CustomerId);
 }

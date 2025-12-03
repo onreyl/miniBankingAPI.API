@@ -28,6 +28,7 @@ namespace miniBankingAPI.API.Middlewares
         {
             var statusCode = exception switch
             {
+                UnauthorizedAccessException => HttpStatusCode.Unauthorized,
                 KeyNotFoundException => HttpStatusCode.NotFound,
                 ArgumentException => HttpStatusCode.BadRequest,
                 InvalidOperationException => HttpStatusCode.BadRequest,
